@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultiLanguages</string>
+    <string name="text_tieude">Phiếu thông tin</string>
+    <string name="hint_ten">Tên</string>
+    <string name="text_xacnhan">Xác nhận</string>
+    <string name="txt_chao">Xin chào</string>
+</resources>

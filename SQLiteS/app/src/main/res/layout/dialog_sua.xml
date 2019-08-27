@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#3ce7d3"
+    >
+
+    <TextView
+        android:id="@+id/txtSuaSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sua Sach"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="IDsach"
+        android:layout_below="@+id/txtSuaSach"
+        android:textSize="24sp" />
+
+    <EditText
+        android:hint="nhap ten Sach"
+        android:id="@+id/etTenS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtId" />
+
+    <EditText
+        android:hint="nhap loai sach"
+        android:id="@+id/etLoaiSach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTenS" />
+
+    <Button
+        android:id="@+id/btnSua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLoaiSach"
+        android:layout_marginLeft="30dp"
+        android:text="Sua" />
+
+    <Button
+        android:id="@+id/btnHuyEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLoaiSach"
+        android:layout_marginRight="50dp"
+        android:layout_toRightOf="@id/btnSua"
+        android:text="Huy" />
+</RelativeLayout>

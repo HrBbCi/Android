@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MultiLanguages</string>
+    <string name="hint_ten">Enter name</string>
+    <string name="text_tieude">Information Form</string>
+    <string name="text_xacnhan">Confirm</string>
+    <string name="txt_chao">Hello</string>
+</resources>

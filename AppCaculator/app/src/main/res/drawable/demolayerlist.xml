@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="700dp">
+        <bitmap android:src="@drawable/t" android:gravity="left"></bitmap>
+    </item>
+    <item android:left="750dp">
+        <bitmap android:src="@drawable/ava2" ></bitmap>
+    </item>
+</layer-list>

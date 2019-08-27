@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Settings"
+        android:id="@+id/menuSetting"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always"
+        />
+    <item android:title="Share"
+        android:id="@+id/menuShare"
+        />
+    <item android:title="Search"
+        android:id="@+id/menuSearch"
+        />
+    <item android:title="Contact"
+        android:id="@+id/menuContact">
+        <menu>
+            <item android:title="Email"
+                android:id="@+id/menuEmail"
+                />
+            <item android:title="Phone"
+                android:id="@+id/menuPhone"
+                />
+        </menu>
+    </item>
+    <item android:title="Exit"
+        android:id="@+id/menuExit"
+        />
+</menu>

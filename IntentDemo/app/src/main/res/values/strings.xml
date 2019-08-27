@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IntentDemo</string>
+    <string-array name="list_name">
+        <item>im1</item>
+        <item>im2</item>
+        <item>im3</item>
+        <item>im4</item>
+        <item>im5</item>
+        <item>im6</item>
+        <item>im7</item>
+        <item>im8</item>
+    </string-array>
+</resources>

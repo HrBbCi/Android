@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:id="@+id/txtTittle"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Music 's name" />
+
+    <ImageButton
+        android:id="@+id/btnPrev"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/txtTittle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="358dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/prev" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginLeft="314dp"
+        android:layout_marginTop="396dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/next" />
+
+    <ImageButton
+        android:id="@+id/btnStop"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="211dp"
+        android:layout_marginLeft="211dp"
+        android:layout_marginTop="396dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/stop" />
+
+    <ImageButton
+        android:id="@+id/btnPlay"
+        android:layout_width="66dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="396dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/play" />
+
+    <SeekBar
+        android:id="@+id/skSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="142dp" />
+
+    <TextView
+        android:id="@+id/txtStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="169dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="00:00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtStart"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginLeft="323dp"
+        android:layout_marginTop="5dp"
+        android:text="00:00"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgViewDisc"
+        android:layout_width="357dp"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="57dp"
+        app:srcCompat="@drawable/dia" />
+
+</RelativeLayout>

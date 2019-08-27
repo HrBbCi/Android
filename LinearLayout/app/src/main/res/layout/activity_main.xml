@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EE11"
+    android:orientation="horizontal"> <!--vertical Hiển thị chiều dọc ; horizontal theo chiều ngang-->
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:background="#e7ee11"
+        android:padding="10dp"
+        android:layout_weight="2"
+        >
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/app_name"
+        />
+    <Spinner
+        android:id="@+id/dates"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/times"
+        ></Spinner>
+
+        <Spinner
+            android:id="@+id/times"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_alignParentRight="true"
+            ></Spinner>
+        <Button
+            android:id="@+id/btnXuatThongBao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/b"
+            android:layout_below="@+id/times"
+            android:layout_alignParentRight="true"
+            android:drawablePadding="5dp"
+            android:text="XuatThongBao"
+            />
+        <Button
+            android:id="@+id/btnXinChao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnXuatThongBao"
+            android:layout_alignParentRight="true"
+            android:text="XinChao"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/test"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/times" />
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:layout_gravity="bottom"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fl"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Frame Layout" />
+
+    </FrameLayout>
+
+</LinearLayout>
+
